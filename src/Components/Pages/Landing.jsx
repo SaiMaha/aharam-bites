@@ -5,23 +5,23 @@ const Landing = () => {
   return (
     <section className="w-full h-screen flex items-center justify-center relative text-white text-center">
       
-      {/* Background Image */}
+     
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage: "url('/landing-bg.jpg')", // Replace with your actual image path
+          backgroundImage: "url('https://images.unsplash.com/photo-1558909552-8fcf7c94b575?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')", 
           filter: "brightness(0.7)",
         }}
       ></div>
 
-      {/* Foreground Content */}
+      
       <article className="relative z-10 max-w-3xl">
         <h1 className="text-6xl font-extrabold">Aharam Bites</h1>
         <p className="mt-4 text-2xl">
-          Find the **perfect** recipe based on your ingredients.
+          Find the perfect recipe based on your ingredients.
         </p>
         <p className="mt-2 text-lg">
-          Plan meals effortlessly with our **automatic grocery list** feature.
+          Plan meals effortlessly with our automatic grocery list feature.
         </p>
 
         <div className="mt-6 flex justify-center gap-4">
